@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44508" started-at="2019-03-13T05:46:46Z" finished-at="2019-03-13T05:47:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44508" started-at="2019-03-13T05:46:46Z" finished-at="2019-03-13T05:47:31Z">
+      <class name="testScripts.Module2">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.Module2@2f7a2457]" name="beforesuite" is-config="true" duration-ms="315" started-at="2019-03-12T22:46:46Z" finished-at="2019-03-12T22:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testScripts.Module2@2f7a2457]" name="beforemethod" is-config="true" duration-ms="615" started-at="2019-03-12T22:46:46Z" finished-at="2019-03-12T22:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.Module2.TC201()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="TC201()[pri:0, instance:testScripts.Module2@2f7a2457]" name="TC201" duration-ms="43673" started-at="2019-03-12T22:46:47Z" finished-at="2019-03-12T22:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC201 -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testScripts.Module2@2f7a2457]" name="aftermethod" is-config="true" duration-ms="210" started-at="2019-03-12T22:47:30Z" finished-at="2019-03-12T22:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC201 status=SUCCESS method=Module2.TC201()[pri:0, instance:testScripts.Module2@2f7a2457] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.Module2@2f7a2457]" name="aftersuite" is-config="true" duration-ms="33110" started-at="2019-03-12T22:47:31Z" finished-at="2019-03-12T22:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.Module2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
